@@ -18,10 +18,10 @@ export default function Home() {
       </Link>
 
       <div className="text-center bg-green-400 border-2 border-black rounded-2xl w-175 content-center items-center mt-16 p-4 justify-center hover:scale-110 transition-all">
-        <h1 className="text-black text-5xl">What's this about?</h1>
+        <h1 className="text-black text-5xl">What&#39;s this about?</h1>
         <p className="text-black bg-blue-300 text-2xl w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
           This is a mountain themed YSWS where you code hours and can earn
-          prizes like earbuds, credits, games, 3d printers, and more! Plus we'll
+          prizes like earbuds, credits, games, 3d printers, and more! Plus we&#39;ll
           have hiking related stuff as prizes! And if you code for enough hours,
           you can even earn a ticket for a hackathon in Yerevan, Armenia!
         </p>
@@ -32,14 +32,14 @@ export default function Home() {
         <p className="text-black bg-blue-300 text-2xl w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
           Armenia is in the Southern Caucasus, between Iran, Georgia, and
           Turkey! Armenia is considered the 10th most mountainous nation, hence
-          the name "Highlands." I would like this YSWS to happen in Yerevan, the
+          the name &#34;Highlands.&#34; I would like this YSWS to happen in Yerevan, the
           capital, because it provides the most flexibility. Also, most major
-          European and Middle Eastern airlines fly to Armenia, and it's
+          European and Middle Eastern airlines fly to Armenia, and it&#39;s
           visa-free for most nations.
         </p>
       </div>
 
-      <div className="text-center bg-green-400 border-2 border-black rounded-2xl w-175 content-center items-center mt-16 p-4 justify-center hover:scale-110 transition-all">
+      <div className="text-center bg-green-400 border-2 border-black rounded-2xl w-175 content-center items-center mt-16 p-4 justify-center hover:scale-110 mb-10 transition-all">
         <h1 className="text-black text-5xl">Is there anything in Yerevan?</h1>
         <p className="text-black bg-blue-300 text-2xl w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
           There are a lot of places to visit in Yerevan. Most famous sites in
