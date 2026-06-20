@@ -1,4 +1,4 @@
-import { Roboto_Slab, Roboto_Mono } from "next/font/google";
+import { Roboto_Mono, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 
 const robotoSans = Roboto_Slab({
