@@ -21,9 +21,10 @@ export default function Home() {
         <h1 className="text-black text-5xl">What&#39;s this about?</h1>
         <p className="text-black bg-blue-300 text-2xl w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
           This is a mountain themed YSWS where you code hours and can earn
-          prizes like earbuds, credits, games, 3d printers, and more! Plus we&#39;ll
-          have hiking related stuff as prizes! And if you code for enough hours,
-          you can even earn a ticket for a hackathon in Yerevan, Armenia!
+          prizes like earbuds, credits, games, 3d printers, and more! Plus
+          we&#39;ll have hiking related stuff as prizes! And if you code for
+          enough hours, you can even earn a ticket for a hackathon in Yerevan,
+          Armenia!
         </p>
       </div>
 
@@ -32,10 +33,10 @@ export default function Home() {
         <p className="text-black bg-blue-300 text-2xl w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
           Armenia is in the Southern Caucasus, between Iran, Georgia, and
           Turkey! Armenia is considered the 10th most mountainous nation, hence
-          the name &#34;Highlands.&#34; I would like this YSWS to happen in Yerevan, the
-          capital, because it provides the most flexibility. Also, most major
-          European and Middle Eastern airlines fly to Armenia, and it&#39;s
-          visa-free for most nations.
+          the name &#34;Highlands.&#34; I would like this YSWS to happen in
+          Yerevan, the capital, because it provides the most flexibility. Also,
+          most major European and Middle Eastern airlines fly to Armenia, and
+          it&#39;s visa-free for most nations.
         </p>
       </div>
 
