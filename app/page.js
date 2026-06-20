@@ -3,20 +3,19 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="flex flex-col bg-gray-700 font-sans justify-center items-center">
-      <div className="text-center bg-yellow-500 border-2 border-black rounded-2xl w-[1000px] mt-16 justify-center">
+      <div className="text-center bg-yellow-500 border-2 hover:scale-110 transition-all border-black rounded-2xl w-[1000px] mt-16 justify-center">
         <h1 className="text-black text-5xl">
           {" "}
           Welcome to Highlands YSWS!!! ⛰️
         </h1>
         <p className="text-black text-2xl mt-4">
-          This is a draft YSWS for Highlands. Check out #highlands on Slack and
-          scroll down for more info!
+          Check out #highlands on Slack and scroll down for more info!
         </p>
       </div>
       <Link href="https://forms.fillout.com/t/mBxutASVbSus">
         <button
           url
-          className="text-center bg-yellow-500 border-2 border-black text-black h-16 hover:scale-125 cursor-pointer transition-all rounded-xl w-44 mt-16 justify-center"
+          className="text-center bg-yellow-500 border-2 border-black font-bold text-2xl text-black h-16 hover:scale-125 cursor-pointer transition-all rounded-xl w-44 mt-16 justify-center"
         >
           RSVP Now!
         </button>
