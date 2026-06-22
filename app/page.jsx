@@ -11,7 +11,7 @@ export default function Home() {
       </div>
 
       <Link
-        href="https://forms.fillout.com/t/mBxutASVbSus"
+        href="https://link.aregus.me/highlands-rsvp"
         className="text-center flex items-center justify-center bg-yellow-500 border-2 border-black font-bold text-2xl text-black h-16 hover:scale-125 cursor-pointer transition-all rounded-xl w-44 mt-16"
       >
         RSVP Now!
