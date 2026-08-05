@@ -45,7 +45,7 @@ export default function Home() {
         visa-free for most nations.
       </InfoBox>
 
-      <InfoBox Header="Is there anything in Yerevan?">
+      <InfoBox Header="Is there anything in Yerevan?" className={"mb-16"}>
         There are a lot of places to visit in Yerevan. Most famous sites in
         Yerevan include the cascade complex, Tsitsernakaberd, Republic Square,
         The National History Museum, the Opera, and even the Metro here + more
