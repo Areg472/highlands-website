@@ -30,7 +30,7 @@ export default function Home() {
 
       <div className="text-center bg-green-400 border-2 border-black rounded-2xl w-80 md:w-175 content-center items-center mt-16 p-4 justify-center hover:scale-110 transition-all">
         <h1 className="text-black text-5xl">
-          What&#39;s the Highlands Challenge about?
+          What is the Highlands Challenge?
         </h1>
         <p className="text-black bg-blue-300 text-2xl w-72 md:w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
           The Highlands challenge involves climbing digital mountains in the
