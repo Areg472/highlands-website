@@ -19,7 +19,7 @@ export default function Home() {
 
       <div className="text-center bg-green-400 border-2 border-black rounded-2xl w-80 md:w-175 content-center items-center mt-16 p-4 justify-center hover:scale-110 transition-all">
         <h1 className="text-black text-5xl">What&#39;s this about?</h1>
-        <p className="text-black bg-blue-300 text-2xl w-30 md:w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
+        <p className="text-black bg-blue-300 text-2xl w-72 md:w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
           This is a mountain themed YSWS where you code hours and can earn
           prizes like earbuds, credits, games, 3d printers, and more! Plus
           we&#39;ll have hiking related stuff as prizes! And if you code for
@@ -29,8 +29,23 @@ export default function Home() {
       </div>
 
       <div className="text-center bg-green-400 border-2 border-black rounded-2xl w-80 md:w-175 content-center items-center mt-16 p-4 justify-center hover:scale-110 transition-all">
+        <h1 className="text-black text-5xl">
+          What&#39;s the Highlands Challenge about?
+        </h1>
+        <p className="text-black bg-blue-300 text-2xl w-72 md:w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
+          The Highlands challenge involves climbing digital mountains in the
+          dashboard to obtain free shop currency. A mountain will have stages,
+          which will require certain amounts of hours. For example, a mountain
+          could have 5h, 8h, 4h stages. You must complete a stage in the
+          specified amount of time or else you&#39;ll fall from the mountain. As
+          the mountains get taller, you&#39;ll be rewarded with more shop
+          currency!
+        </p>
+      </div>
+
+      <div className="text-center bg-green-400 border-2 border-black rounded-2xl w-80 md:w-175 content-center items-center mt-16 p-4 justify-center hover:scale-110 transition-all">
         <h1 className="text-black text-5xl">Where is Armenia?</h1>
-        <p className="text-black bg-blue-300 text-2xl w-30 md:w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
+        <p className="text-black bg-blue-300 text-2xl w-72 md:w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
           Armenia is in the Southern Caucasus, between Iran, Georgia, and
           Turkey! Armenia is considered the 10th most mountainous nation, hence
           the name &#34;Highlands.&#34; I would like this YSWS to happen in
@@ -42,7 +57,7 @@ export default function Home() {
 
       <div className="text-center bg-green-400 border-2 border-black rounded-2xl w-80 md:w-175 content-center items-center mt-16 p-4 justify-center hover:scale-110 mb-10 transition-all">
         <h1 className="text-black text-5xl">Is there anything in Yerevan?</h1>
-        <p className="text-black bg-blue-300 text-2xl w-30 md:w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
+        <p className="text-black bg-blue-300 text-2xl w-72 md:w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
           There are a lot of places to visit in Yerevan. Most famous sites in
           Yerevan include the cascade complex, Tsitsernakaberd, Republic Square,
           The National History Museum, the Opera, and even the Metro here + more
