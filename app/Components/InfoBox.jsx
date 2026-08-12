@@ -1,10 +1,12 @@
 "use client";
 
-import { Box, Heading, Text } from "theme-ui";
+import theme from "@hackclub/theme";
+import { Box, Heading, Text, Card } from "theme-ui";
 
 export default function InfoBox({ Header, children, sx }) {
   return (
-    <Box
+    <Card
+      variant="interactive"
       sx={{
         textAlign: "center",
         bg: "elevated",
@@ -25,9 +27,8 @@ export default function InfoBox({ Header, children, sx }) {
       >
         {Header}
       </Heading>
-      <Box
+      <Card
         sx={{
-          bg: "#2275ba",
           color: "white",
           fontSize: 2,
           width: "100%",
@@ -37,10 +38,11 @@ export default function InfoBox({ Header, children, sx }) {
           borderColor: "text",
           borderRadius: "extra",
           lineHeight: 1.5,
+          backgroundImage: (theme) => theme.util.gx("blue", "#2275ba"),
         }}
       >
         <Text>{children}</Text>
-      </Box>
-    </Box>
+      </Card>
+    </Card>
   );
 }
