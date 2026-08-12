@@ -27,7 +27,7 @@ export default function InfoBox({ Header, children, sx }) {
       </Heading>
       <Box
         sx={{
-          bg: "blue",
+          bg: "cyan",
           color: "white",
           fontSize: 2,
           width: "100%",
