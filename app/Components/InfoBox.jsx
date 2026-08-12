@@ -1,12 +1,46 @@
-export default function InfoBox({ Header, children, className }) {
+"use client";
+
+import { Box, Heading, Text } from "theme-ui";
+
+export default function InfoBox({ Header, children, sx }) {
   return (
-    <div
-      className={`text-center bg-green-400 border-2 border-black rounded-2xl w-80 md:w-175 content-center items-center mt-16 p-4 justify-center hover:scale-110 transition-all ${className}`}
+    <Box
+      sx={{
+        textAlign: "center",
+        bg: "elevated",
+        border: "2px solid",
+        borderColor: "text",
+        borderRadius: "extra",
+        maxWidth: "1025px",
+        width: "100%",
+        p: ["15px", 3],
+        px: ["10px", 3],
+        mt: 4,
+        ...sx,
+      }}
     >
-      <h1 className="text-black text-3xl md:text-5xl">{Header}</h1>
-      <p className="text-black bg-blue-300 text-lg md:text-2xl w-72 md:w-125 text-center mt-4 p-4 border-2 border-black rounded-2xl justify-center items-center mx-auto">
-        {children}
-      </p>
-    </div>
+      <Heading
+        as="h2"
+        sx={{ fontSize: [3, 4], color: "text", lineHeight: 1.3 }}
+      >
+        {Header}
+      </Heading>
+      <Box
+        sx={{
+          bg: "blue",
+          color: "white",
+          fontSize: 2,
+          width: "100%",
+          mt: 3,
+          p: 3,
+          border: "2px solid",
+          borderColor: "text",
+          borderRadius: "extra",
+          lineHeight: 1.5,
+        }}
+      >
+        <Text>{children}</Text>
+      </Box>
+    </Box>
   );
 }

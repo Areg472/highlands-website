@@ -1,30 +1,59 @@
+"use client";
+
 import Link from "next/link";
+import { Box, Button, Card, Heading, Text } from "theme-ui";
 import InfoBox from "@/app/Components/InfoBox";
 
 export default function Home() {
   return (
-    <div className="flex flex-col bg-gray-700 font-sans justify-center items-center min-h-screen">
-      <div className="text-center bg-yellow-500 border-2 border-black rounded-2xl w-80 md:w-250 mt-16 p-6 justify-center">
-        <h1 className="text-black text-3xl md:text-5xl">
-          Welcome to Highlands YSWS!!! ⛰️
-        </h1>
-        <p className="text-black text-lg md:text-2xl mt-4">
-          Check out #highlands on Slack and scroll down for more info!
-        </p>
-      </div>
-
-      <Link
-        href="https://link.aregus.me/highlands-rsvp"
-        className="text-center flex items-center justify-center bg-yellow-500 border-2 border-black font-bold text-lg md:text-2xl text-black h-16 hover:scale-125 cursor-pointer transition-all rounded-xl w-44 mt-16"
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        minHeight: "100vh",
+        bg: "sunken",
+        p: 3,
+      }}
+    >
+      <Card
+        variant="primary"
+        sx={{
+          textAlign: "center",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          border: "2px solid",
+          borderColor: "text",
+          maxWidth: "layout",
+          width: "100%",
+          p: 4,
+        }}
       >
-        RSVP Now!
-      </Link>
-
+        <Heading
+          as="h1"
+          variant="text.ultratitle"
+          sx={{ fontSize: ["28px", 5], color: "text", lineHeight: 1.3 }}
+        >
+          Welcome to Highlands YSWS!
+        </Heading>
+        <Text variant="lead" sx={{ color: "secondary" }}>
+          Check out #highlands on Slack and scroll down for more info!
+        </Text>
+        <Button
+          as={Link}
+          href="https://link.aregus.me/highlands-rsvp"
+          variant="lg"
+          sx={{ mt: 2, fontSize: [2, 3] }}
+        >
+          RSVP Now!
+        </Button>
+      </Card>
       <InfoBox Header="What's this about?">
         This is a mountain themed YSWS where you code hours and can earn prizes
-        like earbuds, credits, games, 3d printers, and more! Plus we&#39;ll have
-        hiking related stuff as prizes! And if you code for enough hours, you
-        can even earn a ticket for a hackathon in Yerevan, Armenia!
+        like earbuds, credits, games, 3d printers, and more! Plus we&apos;ll
+        have hiking related stuff as prizes! And if you code for enough hours,
+        you can even earn a ticket for a hackathon in Yerevan, Armenia!
       </InfoBox>
 
       <InfoBox Header="What is the Highlands Challenge?">
@@ -32,25 +61,25 @@ export default function Home() {
         dashboard to obtain free shop currency. A mountain will have stages,
         which will require certain amounts of hours. For example, a mountain
         could have 5h, 8h, 4h stages. You must complete a stage in the specified
-        amount of time or else you&#39;ll fall from the mountain. As the
-        mountains get taller, you&#39;ll be rewarded with more shop currency!
+        amount of time or else you&apos;ll fall from the mountain. As the
+        mountains get taller, you&apos;ll be rewarded with more shop currency!
       </InfoBox>
 
       <InfoBox Header="Where is Armenia?">
         Armenia is in the Southern Caucasus, between Iran, Georgia, and Turkey!
         Armenia is considered the 10th most mountainous nation, hence the name
-        &#34;Highlands.&#34; I would like this YSWS to happen in Yerevan, the
+        &quot;Highlands.&quot; I would like this YSWS to happen in Yerevan, the
         capital, because it provides the most flexibility. Also, most major
-        European and Middle Eastern airlines fly to Armenia, and it&#39;s
+        European and Middle Eastern airlines fly to Armenia, and it&apos;s
         visa-free for most nations.
       </InfoBox>
 
-      <InfoBox Header="Is there anything in Yerevan?" className={"mb-16"}>
+      <InfoBox Header="Is there anything in Yerevan?">
         There are a lot of places to visit in Yerevan. Most famous sites in
         Yerevan include the cascade complex, Tsitsernakaberd, Republic Square,
         The National History Museum, the Opera, and even the Metro here + more
         outside of Yerevan
       </InfoBox>
-    </div>
+    </Box>
   );
 }
