@@ -1,5 +1,6 @@
 import "./globals.css";
 import ThemeProvider from "./theme-provider";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   title: "Highlands YSWS!",
@@ -13,10 +14,12 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <ThemeProvider>{children}</ThemeProvider>
-      </body>
-    </html>
+    <Analytics>
+      <html lang="en">
+        <body>
+          <ThemeProvider>{children}</ThemeProvider>
+        </body>
+      </html>
+    </Analytics>
   );
 }
