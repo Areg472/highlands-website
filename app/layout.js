@@ -14,12 +14,13 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <Analytics>
-      <html lang="en">
-        <body>
-          <ThemeProvider>{children}</ThemeProvider>
-        </body>
-      </html>
-    </Analytics>
+    <html lang="en">
+      <body>
+        <ThemeProvider>
+          {children}
+          <Analytics />
+        </ThemeProvider>
+      </body>
+    </html>
   );
 }
